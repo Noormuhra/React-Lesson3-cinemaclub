@@ -12,6 +12,7 @@ function MovieList() {
         available={true}
         popular={true}
         genre="Sci-Fi"
+        duration={148}
       />
       <MovieCard
         title="Toy Story"
@@ -20,6 +21,7 @@ function MovieList() {
         available={false}
         popular={false}
         genre="Animation"
+        duration={81}
       />
       <MovieCard
         title="Parasite"
@@ -28,6 +30,7 @@ function MovieList() {
         available={true}
         popular={false}
         genre="Drama"
+        duration={132}
       />
     </section>
   );
